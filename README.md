@@ -32,6 +32,7 @@
 	- Select the template of the type of the content you want to import.
 	- Select the language of the content you want to import.
 	- Click on **Import**.
+    
 	![Import-Success](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/images/Import-Success.png?raw=true)
 2. ### Export Functionality
 	- Open the **Content Editor**.
