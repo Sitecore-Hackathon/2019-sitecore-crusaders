@@ -23,7 +23,7 @@
 	- Fill the data you want to import in a CSV file and upload the file to the media library.
 	- Open the **Content Editor**.
 	- Go to the **Import Export Tool** tab as shown in the below screenshot.
-	![Select Tool Tab](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/images/Tool-Tab-New.png?raw=true)
+	![Select Tool Tab](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/sc.package/Data_Import_Export_Installation_Package-1.zip?raw=true)
 	- Click on **Import Data**.
 	- You will see a prompt dialog as the below screenshot.
 	![Select-Import-Options](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/images/Import-Dialog.png?raw=true)
