@@ -15,7 +15,7 @@
 
 ## Installation
 
-1.  Use the Sitecore Installation wizard to install the  [package](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/README.md#link-to-package).
+1.  Use the Sitecore Installation wizard to install the  [package](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/sc.package/Data_Import_Export_Installation_Package-1.zip?raw=true).
 
 ## Usage
 
@@ -23,7 +23,7 @@
 	- Fill the data you want to import in a CSV file and upload the file to the media library.
 	- Open the **Content Editor**.
 	- Go to the **Import Export Tool** tab as shown in the below screenshot.
-	![Select Tool Tab](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/sc.package/Data_Import_Export_Installation_Package-1.zip?raw=true)
+	![Select Tool Tab](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/images/Tool-Tab-New.png?raw=true)
 	- Click on **Import Data**.
 	- You will see a prompt dialog as the below screenshot.
 	![Select-Import-Options](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/images/Import-Dialog.png?raw=true)
@@ -51,5 +51,6 @@
 	![Downloaded File ](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/images/Export-File.png?raw=true)
 	
 ## Video
-The link to the video can be found [here](https://www.youtube.com).
+The link to the video can be found [here](https://youtu.be/3bBunB1_i8Y).
+The items used for the demo can be found [here](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/sc.package/Data_Export_Import_Demo_Package-v1.zip?raw=true)
 
