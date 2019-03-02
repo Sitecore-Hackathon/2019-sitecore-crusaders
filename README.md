@@ -1,38 +1,55 @@
-![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo")
-
-# Submission Boilerplate
-
-Welcome to Sitecore Hackathon 2019.
-
-The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2019/
-
-The purpose of this repository is to provide a sample which shows how to structure the Hackathon submissions.
+﻿# Data Import-Export Tool
 
 
-## Entry Submission Requirements 
+## Summary
 
-All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on **Friday March 1st 2019 at 8PM EST**. The modules should be based on [Sitecore 9.1 (Initial Release)](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx).
+**Category:**  Best use of SPE to help Content authors and Marketers
 
-**Failure to meet any of the requirements will result in automatic disqualification.** Please reach out to any of the organisers or judges if you require any clarification.
+ - **Purpose** : The purpose of this module is to empower content authors and marketers with the ability to import and export bulk content.
+ - **Problem Solved** : While dealing with bulk data, it becomes tedious to create and view the data. This tool helps the users to instead deal with Excel files to both import and export data. Hence saving a lot of time.
+ - **How it works** : This  Content Import/Export Tool is built with the Sitecore Powershell module, making the functioning of the tool faster and powerful. For the import functionality, the user has to fill the content to a CSV and input it to the tool. For the export functionality, the user will have select his targeted content, and the data will be exported as CSV file.
+ 
+## Pre-requisites
 
-- Sitecore 9.1 (Initial Release) Module (Module install package)
-   - An installation Sitecore Package (`.zip` or `.update`)
+- Sitecore Powershell Module v4.0 and above.
 
-- Module code in a public Git source repository. We will be judging (amongst other things):
-  - Cleanliness of code
-  - Commenting where necessary
-  - Code Structure
-  - Standard coding standards & naming conventions
+## Installation
 
-- Precise and Clear Installation Instructions document (1 – 2 pages)
-- Module usage documentation on [Readme.md](documentation) file on the Git Repository (2 – 5 pages)
-  - Module Purpose
-  - Module Sitecore Hackathon Category
-  - How does the end user use the Module?
-  - Screenshots, etc.
+1.  Use the Sitecore Installation wizard to install the  [package](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/README.md#link-to-package).
 
-- Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)
+## Usage
 
-  - What problem was solved
-  - How did you solve it
-  - What is the end result
+1. ### Import Functionality
+	- Fill the data you want to import in a CSV file and upload the file to the media library.
+	- Open the **Content Editor**.
+	- Go to the **Import Export Tool** tab as shown in the below screenshot.
+	![Select Tool Tab](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/images/Tool-Tab-New.png?raw=true)
+	- Click on **Import Data**.
+	- You will see a prompt dialog as the below screenshot.
+	![Select-Import-Options](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/images/Import-Dialog.png?raw=true)
+	- Select the uploaded file as the **Source**.
+	- Select the node where the data has to be populated as **Destination**.
+	- Select the template of the type of the content you want to import.
+	- Select the language of the content you want to import.
+	- Click on **Import**.
+	![Import-Success](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/images/Import-Success.png?raw=true)
+2. ### Export Functionality
+	- Open the **Content Editor**.
+	- Go to the **Import Export Tool** tab as shown in the below screenshot.	
+	![Select-Tool-Tab](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/images/Tool-Tab-New.png?raw=true)
+	- Click on **Export Data**.
+	- You will see a prompt dialog as the below screenshot.
+	![Select Options](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/images/Export-Select_Options-New.png?raw=true)
+	- Select the site that you want to export the data from.
+	- Select the template of the type of the content you want to export.
+	- Select the language of the content you want to export.
+	- Click on **Export**.
+	- After you see the Download dialog, click on **Download**.
+	![ Download File Dialog ](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/images/Export-Download_Dialog-New.png?raw=true)
+	- Open the downloaded file.
+	- The data exported will be in the file.
+	![Downloaded File ](https://github.com/Sitecore-Hackathon/2019-sitecore-crusaders/blob/master/documentation/images/Export-File.png?raw=true)
+	
+## Video
+The link to the video can be found [here](https://www.youtube.com).
+
